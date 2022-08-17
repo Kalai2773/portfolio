@@ -45,7 +45,7 @@ function Projects() {
               title="Portfolio"
               description="Portfolio an online representation of work you have created, as well as your skills and experiences.
               It is made by React Js."
-              ghLink="https://github.com/Kalai2773/kalai-Portfolio"
+              ghLink="https://github.com/Kalai2773/portfolio"
               demoLink="https://kalai.systems"
             />
           </Col>

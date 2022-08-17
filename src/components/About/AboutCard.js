@@ -29,9 +29,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "The world rewards you for value provided, not time spent!"{" "}
           </p>
-          <footer className="blockquote-footer">Kalai</footer>
+          <footer className="blockquote-footer">James clear</footer>
         </blockquote>
       </Card.Body>
     </Card>

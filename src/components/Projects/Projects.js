@@ -11,7 +11,7 @@ import Particle from "../Particle";
 //import brainy from "../../Assets/Projects/brainy.png";
 //import music from "../../Assets/Projects/music.png";
 //import kuiz from "../../Assets/Projects/kuiz.png";
-//import weather from "../../Assets/Projects/weather.png";
+import weather from "../../Assets/Projects/weather.png";
 import lap from "../../Assets/Projects/lapportt.png";
 
 function Projects() {
@@ -50,18 +50,18 @@ function Projects() {
             />
           </Col>
 
-         {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={weather}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Weather Forecaste"
+              description="Weather Forecast is a interactive website that shows the weather of the place when you search it.It is made using React Js.Aligns only for Laptop screens, soon for Mobiles"
+              ghLink="https://github.com/Kalai2773/weather-api"
+              demoLink="https://kalai-weather.vercel.app"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+         {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
@@ -112,3 +112,4 @@ function Projects() {
 }
 
 export default Projects;
+

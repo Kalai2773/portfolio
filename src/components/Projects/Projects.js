@@ -57,7 +57,7 @@ function Projects() {
               title="Weather Forecaste"
               description="Weather Forecast is a interactive website that shows the weather of the place when you search it.It is made using React Js.Aligns only for Laptop screens, soon for Mobiles"
               ghLink="https://github.com/Kalai2773/weather-forecast"
-              demoLink="https://kalai-weather.vercel.app"
+              demoLink="https://weather.kalai.systems"
             />
           </Col>
 

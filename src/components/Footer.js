@@ -82,7 +82,7 @@ function Footer() {
               >
                 <AiFillInstagram />
               </a>
-</li>*
+</li>kalai
           </ul>
         </Col>
       </Row>

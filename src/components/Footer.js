@@ -45,7 +45,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/kalai_53"
+                href="https://twitter.com/imkalai03"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -75,7 +75,7 @@ function Footer() {
 </li>*/}
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/kalz_irreplaceable/"
+                href="https://www.instagram.com/kxlai_3/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

@@ -66,7 +66,7 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="Discord bot(Arti)"
-              description="Arti Is A Discord Moderation and Fun Bot Made Using Discord.py Library "
+              description="Arti Is A Discord Multipurpose  and Fun Bot Made Using discord.js Library. This Bot Was officially Verified By Discord. "
               ghLink="https://github.com/Kalai2773/discord-bot-py"
               demoLink="https://discord.com/channels/@me/1017603739462402170"              
             />

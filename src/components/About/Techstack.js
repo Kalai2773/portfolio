@@ -11,7 +11,7 @@ import {
 } from "react-icons/di";
 import {
   //SiPytorch,
-  SiFirebase,
+  SiBootstrap,
   //SiNextdotjs,
   SiMysql,
   SiPython,
@@ -46,7 +46,7 @@ function Techstack() {
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiBootstrap />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb/>

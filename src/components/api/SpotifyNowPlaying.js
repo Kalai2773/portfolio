@@ -33,7 +33,7 @@ const SpotifyNowPlaying = (props) => {
             <div>
               <div>
                 <h1 style={{ fontSize: "1.1em",}}>
-                  <SpotifyLogo /> <strong className="purple">Spotify</strong> Now Playing
+                  <SpotifyLogo /> <strong className="purple">Spotify</strong> Now Listening
                 </h1>
               </div>
               <div className="d-flex justify-content-center">
@@ -51,8 +51,6 @@ const SpotifyNowPlaying = (props) => {
               </div>
             </div>
           }
-
-
 
           {!result.isPlaying &&
             <div>

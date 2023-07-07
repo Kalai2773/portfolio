@@ -54,7 +54,7 @@ const SpotifyNowPlaying = (props) => {
 
           {!result.isPlaying &&
             <div>
-              <SpotifyLogo /> Currently offline
+              <SpotifyLogo /> Not Playing – <strong className="purple"> Spotify <strong>
             </div>
 
           }

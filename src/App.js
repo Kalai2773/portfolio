@@ -6,7 +6,6 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 //import Resume from "./components/Resume/ResumeNew";
-import AnimatedCursor from "react-animated-cursor";
 import {
   BrowserRouter as Router,
   Route,
@@ -43,17 +42,6 @@ function App() {
          
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
-        <AnimatedCursor
-         color="255,255,255"
-          innerSize={1}
-          outerSize={35}
-          innerScale={1}
-          outerScale={1.7}
-          outerAlpha={0}
-          outerStyle={{
-          border: '3px solid #fff'
-           }}
-        />
         <Footer />
       </div>
     </Router>

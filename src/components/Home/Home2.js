@@ -5,6 +5,7 @@ import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
 import { FaDiscord, FaInstagram } from "react-icons/fa";
 
+
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -49,6 +50,8 @@ function Home2() {
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
+          </Col>
+          <Col>
           </Col>
         </Row>
         <Row>
@@ -120,6 +123,7 @@ function Home2() {
                 </a>
 </li>*/}
             </ul>
+            
           </Col>
         </Row>
       </Container>

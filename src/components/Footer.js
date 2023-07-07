@@ -6,6 +6,8 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaDiscord} from "react-icons/fa";
+
+
 //import { MdOutlineMenuBook } from "react-icons/md";
 
 
@@ -82,6 +84,7 @@ function Footer() {
               >
                 <AiFillInstagram />
               </a>
+              
 </li>
           </ul>
         </Col>

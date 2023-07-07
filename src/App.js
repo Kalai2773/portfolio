@@ -6,6 +6,7 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 //import Resume from "./components/Resume/ResumeNew";
+import AnimatedCursor from "react-animated-cursor";
 import {
   BrowserRouter as Router,
   Route,

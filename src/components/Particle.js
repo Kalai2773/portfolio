@@ -7,7 +7,7 @@ function Particle() {
           options={{
             particles: {
               number: {
-                value: 100,
+                value: 200,
                 density: {
                   enable: false,
                   value_area: 800,
@@ -17,7 +17,7 @@ function Particle() {
                 value: "#919ba8",
               },
               shape: {
-                type: ["star", "circle"],
+                type: ["star"],
                 stroke: {
                   width: 0,
                   color: "#000000",

@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { motion } from "framer-motion";
 import getNowPlayingItem from "./SpotifyAPI";
 import SpotifyLogo from "./SpotifyLogo";
 import PlayingAnimation from "./PlayingAnimation";
-import Card from "react-bootstrap/Card";
+
 
 
 const SpotifyNowPlaying = (props) => {
@@ -26,15 +25,14 @@ const SpotifyNowPlaying = (props) => {
 
   return (
 
-    <Container fluid className="about-section">
-
-      <Row style={{ justifyContent: "center", padding: "5px" }}>
+    <Container>
+      <Row style={{ justifyContent: "center" }}>
       <Col xs={18} md={18} className="text-card">
 
           {result.isPlaying &&
             <div>
               <div>
-                <h1 style={{ fontSize: "1.1em", paddingBottom: "10px" }}>
+                <h1 style={{ fontSize: "1.1em",}}>
                   <SpotifyLogo /> <strong className="purple">Spotify</strong> Now Playing
                 </h1>
               </div>

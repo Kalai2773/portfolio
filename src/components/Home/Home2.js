@@ -4,6 +4,7 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
 import { FaDiscord, FaInstagram } from "react-icons/fa";
+import SpotifyNowPlaying from "../api/SpotifyNowPlaying";
 
 
 function Home2() {
@@ -124,6 +125,9 @@ function Home2() {
 </li>*/}
             </ul>
             
+          </Col>
+          <Col md={12} className="home-about-social">
+          <SpotifyNowPlaying />
           </Col>
         </Row>
       </Container>
